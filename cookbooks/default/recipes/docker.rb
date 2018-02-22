@@ -9,10 +9,4 @@ docker_service 'default' do
   action [:create, :start]
 end
 
-group 'docker' do
-  append true
-  members [device_user]
-  action :modify
-end
-
 package 'docker-compose'
