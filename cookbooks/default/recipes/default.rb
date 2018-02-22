@@ -13,3 +13,10 @@
   end
   dpkg_package "#{Chef::Config[:file_cache_path]}/#{pkg}"
 end
+
+apt_update 'update' do
+  action :nothing
+  subscribes :install, "dpkg_package[#{Chef::Config[:file_cache_path]}/steamos-tools-repo.deb]", :immediately
+end
+
+package 'retroarch'
