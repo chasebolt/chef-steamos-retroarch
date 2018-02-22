@@ -1,1 +1,4 @@
-package 'retroarch'
+package %w(
+  retroarch
+  apt-transport-https
+)
