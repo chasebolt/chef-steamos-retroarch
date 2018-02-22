@@ -7,3 +7,4 @@
 include_recipe 'default::chef'
 include_recipe 'default::repos'
 include_recipe 'default::packages'
+include_recipe 'default::docker'
