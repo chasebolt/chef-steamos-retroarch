@@ -1,0 +1,7 @@
+[Unit]
+Description=Chef Client Timer
+[Timer]
+OnUnitActiveSec=30m
+Unit=chef-client.service
+[Install]
+WantedBy=multi-user.target

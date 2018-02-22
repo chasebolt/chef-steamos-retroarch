@@ -4,15 +4,6 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-remote_file "#{Chef::Config[:file_cache_path]}/libregeek-archive-keyring.deb" do
-  source 'http://packages.libregeek.org/libregeek-archive-keyring.deb'
-end
-dpkg_package "#{Chef::Config[:file_cache_path]}/libregeek-archive-keyring.deb"
-
-apt_repository 'steamos-tools' do
-  uri 'http://packages.libregeek.org/steamos-tools/'
-  distribution 'brewmaster'
-  components %w(main games)
-end
-
-package 'retroarch'
+include_recipe 'default::chef'
+include_recipe 'default::repos'
+include_recipe 'default::packages'
