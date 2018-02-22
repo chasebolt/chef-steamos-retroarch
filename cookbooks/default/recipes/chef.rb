@@ -1,3 +1,5 @@
+include_recipe 'chef_client_updater'
+
 cookbook_file '/etc/systemd/system/chef-client.service' do
   source 'systemd/chef-client.service'
   notifies :run, 'execute[systemctl daemon-reload]'
