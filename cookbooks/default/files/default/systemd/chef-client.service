@@ -2,10 +2,12 @@
 Description=Chef Client
 Wants=network-online.target
 After=network-online.target
+
 [Service]
 Type=simple
 WorkingDirectory=/root/chef-steamos-retroarch
 ExecStartPre=/usr/bin/git pull
 ExecStart=/usr/bin/chef-client --no-fork -z -r 'recipe[default]' -l warn --force-formatter
+
 [Install]
 WantedBy=multi-user.target
