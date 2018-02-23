@@ -1,5 +1,5 @@
 [Storage]
-ROMs Directory=/home/steam/ROMs
+ROMs Directory=/home/steam/roms
 Backup Directory=/home/steam/.local/share/Ice
 
 [Steam]

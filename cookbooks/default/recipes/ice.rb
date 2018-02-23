@@ -1,6 +1,24 @@
-directory '/home/steam/ROMs' do
+directory '/home/steam/roms' do
   owner 'steam'
   group 'steam'
+end
+
+%w(
+  nes
+  snes
+  n64
+  ds
+  gba
+  genesis
+  saturn
+  dreamcast
+  ps1
+  ps2
+).each do |d|
+  directory "/home/steam/roms/#{d}" do
+    owner 'steam'
+    group 'steam'
+  end
 end
 
 remote_directory '/home/steam/.config/ice' do
@@ -22,6 +40,6 @@ docker_container 'ice' do
     '/home/steam/.config/ice/config.txt:/home/steam/Ice/config.txt',
     '/home/steam/.config/ice/consoles.txt:/home/steam/Ice/consoles.txt',
     '/home/steam/.config/ice/emulators.txt:/home/steam/Ice/emulators.txt',
-    '/home/steam/ROMs:/home/steam/ROMs',
+    '/home/steam/roms:/home/steam/roms',
   ]
 end

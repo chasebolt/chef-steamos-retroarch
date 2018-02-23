@@ -1,3 +1,27 @@
-[Super Nintendo]
-nickname=SNES
-emulator=retroarch SNES
+[NES]
+nickname=nes
+emulator=retroarch_snes
+
+[SNES]
+nickname=snes
+emulator=retroarch_snes
+
+[N64]
+nickname=snes
+emulator=retroarch_n64
+
+[DS]
+nickname=ds
+emulator=retroarch_ds
+
+[GBA]
+nickname=gba
+emulator=retroarch_gba
+
+[Genesis]
+nickname=genesis
+emulator=retroarch_genesis
+
+[Playstation]
+nickname=ps1
+emulator=retroarch_ps1
