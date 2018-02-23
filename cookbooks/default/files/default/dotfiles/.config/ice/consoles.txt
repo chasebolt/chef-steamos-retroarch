@@ -1,6 +1,6 @@
 [NES]
 nickname=nes
-emulator=retroarch_snes
+emulator=retroarch_nes
 
 [SNES]
 nickname=snes
