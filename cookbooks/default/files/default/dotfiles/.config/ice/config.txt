@@ -6,4 +6,4 @@ Backup Directory=/home/steam/.local/share/Ice
 Userdata Directory=/home/steam/.local/share/Steam
 
 [Images]
-Providers=local, thegamesdb
+Providers=local, retrogamingcloud
