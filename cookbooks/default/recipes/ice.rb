@@ -40,6 +40,7 @@ docker_container 'ice' do
     '/home/steam/.config/ice/config.txt:/home/steam/Ice/config.txt',
     '/home/steam/.config/ice/consoles.txt:/home/steam/Ice/consoles.txt',
     '/home/steam/.config/ice/emulators.txt:/home/steam/Ice/emulators.txt',
+    '/usr/bin/retroarch:/usr/bin/retroarch',
     '/home/steam/roms:/home/steam/roms',
   ]
 end
