@@ -8,4 +8,5 @@ package %w(
   libretro-genesisplusgx
   libretro-mupen64plus
   libretro-pcsx1
+  libretro-dolphin-launcher
 )

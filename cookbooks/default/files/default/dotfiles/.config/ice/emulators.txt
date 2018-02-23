@@ -25,3 +25,11 @@ command=%l -f --libretro="/usr/lib/libretro/mupen64plus_libretro.so" %r
 [retroarch_ps1]
 location=/usr/bin/retroarch
 command=%l -f --libretro="/usr/lib/libretro/pcsx1_libretro.so" %r
+
+[retroarch_gc]
+location=/usr/bin/retroarch
+command=%l -f --libretro="/usr/lib/libretro/dolphin_launcher_libretro.so" %r
+
+[retroarch_wii]
+location=/usr/bin/retroarch
+command=%l -f --libretro="/usr/lib/libretro/dolphin_launcher_libretro.so" %r

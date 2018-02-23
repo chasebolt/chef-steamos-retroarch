@@ -25,3 +25,11 @@ emulator=retroarch_genesis
 [Playstation]
 nickname=ps1
 emulator=retroarch_ps1
+
+[GC]
+nickname=gc
+emulator=retroarch_gc
+
+[Wii]
+nickname=wii
+emulator=retroarch_wii

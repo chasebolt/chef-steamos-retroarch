@@ -14,6 +14,8 @@ end
   dreamcast
   ps1
   ps2
+  gc
+  wii
 ).each do |d|
   directory "/home/steam/roms/#{d}" do
     owner 'steam'
