@@ -1,0 +1,9 @@
+[Storage]
+ROMs Directory=/home/steam/ROMs
+Backup Directory=/home/steam/.local/share/Ice
+
+[Steam]
+Userdata Directory=
+
+[Images]
+Providers=local, retrogamingcloud
