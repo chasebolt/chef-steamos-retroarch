@@ -2,7 +2,7 @@ package %w(
   retroarch
   apt-transport-https
   libretro-snes9x-next
-  libretro-desume
+  libretro-desmume
   libretro-fceumm
   libretro-vba-next
   libretro-genesisplusgx
