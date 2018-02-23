@@ -7,7 +7,7 @@ nickname=snes
 emulator=retroarch_snes
 
 [N64]
-nickname=snes
+nickname=n64
 emulator=retroarch_n64
 
 [DS]
