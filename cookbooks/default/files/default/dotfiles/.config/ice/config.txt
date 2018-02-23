@@ -3,7 +3,7 @@ ROMs Directory=/home/steam/ROMs
 Backup Directory=/home/steam/.local/share/Ice
 
 [Steam]
-Userdata Directory=
+Userdata Directory=/home/steam/.local/share/Steam
 
 [Images]
 Providers=local, retrogamingcloud

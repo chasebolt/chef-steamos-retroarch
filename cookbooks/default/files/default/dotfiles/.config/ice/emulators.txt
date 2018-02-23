@@ -1,3 +1,3 @@
-[higan]
+[retroarch]
 location=/usr/bin/retroarch
 command=%l --fullscreen %r

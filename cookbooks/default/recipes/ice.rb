@@ -12,6 +12,8 @@ remote_directory '/home/steam/.config/ice' do
   files_mode 00750
 end
 
+docker_image 'anthonyneto/docker-ice'
+
 docker_container 'ice' do
   repo 'anthonyneto/docker-ice'
   volumes [
