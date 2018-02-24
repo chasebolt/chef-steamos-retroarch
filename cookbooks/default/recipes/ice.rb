@@ -4,18 +4,18 @@ directory '/home/steam/roms' do
 end
 
 %w(
-  nes
-  snes
-  n64
-  ds
-  gba
-  genesis
-  saturn
-  dreamcast
-  ps1
-  ps2
-  gc
-  wii
+  NES
+  SNES
+  N64
+  DS
+  GBA
+  Genesis
+  Saturn
+  Dreamcast
+  PS1
+  PS2
+  Gamecube
+  Wii
 ).each do |d|
   directory "/home/steam/roms/#{d}" do
     owner 'steam'

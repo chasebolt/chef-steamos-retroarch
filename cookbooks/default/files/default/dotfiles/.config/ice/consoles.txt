@@ -6,30 +6,30 @@ emulator=retroarch_nes
 nickname=SNES
 emulator=retroarch_snes
 
-# [N64]
-# nickname=n64
-# emulator=retroarch_n64
-#
-# [DS]
-# nickname=ds
-# emulator=retroarch_ds
-#
-# [GBA]
-# nickname=gba
-# emulator=retroarch_gba
-#
-# [Genesis]
-# nickname=genesis
-# emulator=retroarch_genesis
-#
-# [Playstation]
-# nickname=ps1
-# emulator=retroarch_ps1
-#
-# [GC]
-# nickname=gc
-# emulator=retroarch_gc
-#
-# [Wii]
-# nickname=wii
-# emulator=retroarch_wii
+[N64]
+nickname=N64
+emulator=retroarch_n64
+
+[DS]
+nickname=DS
+emulator=retroarch_ds
+
+[GBA]
+nickname=GBA
+emulator=retroarch_gba
+
+[Genesis]
+nickname=Genesis
+emulator=retroarch_genesis
+
+[Playstation]
+nickname=PS1
+emulator=retroarch_ps1
+
+[GC]
+nickname=Gamecube
+emulator=retroarch_gc
+
+[Wii]
+nickname=Wii
+emulator=retroarch_wii
