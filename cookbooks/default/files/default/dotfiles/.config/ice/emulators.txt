@@ -1,35 +1,35 @@
-[retroarch_snes]
+[snes]
 location=/usr/bin/retroarch
 command=%l -f --libretro="/usr/lib/libretro/snes9x2010_libretro.so" %r
-
-[retroarch_ds]
-location=/usr/bin/retroarch
-command=%l -f --libretro="/usr/lib/libretro/desmume_libretro.so" %r
-
-[retroarch_nes]
-location=/usr/bin/retroarch
-command=%l -f --libretro="/usr/lib/libretro/fceumm_libretro.so" %r
-
-[retroarch_gba]
-location=/usr/bin/retroarch
-command=%l -f --libretro="/usr/lib/libretro/vba_next_libretro.so" %r
-
-[retroarch_genesis]
-location=/usr/bin/retroarch
-command=%l -f --libretro="/usr/lib/libretro/genesis_plus_gx_libretro.so" %r
-
-[retroarch_n64]
-location=/usr/bin/retroarch
-command=%l -f --libretro="/usr/lib/libretro/mupen64plus_libretro.so" %r
-
-[retroarch_ps1]
-location=/usr/bin/retroarch
-command=%l -f --libretro="/usr/lib/libretro/pcsx1_libretro.so" %r
-
-[retroarch_gc]
-location=/usr/bin/retroarch
-command=%l -f --libretro="/usr/lib/libretro/dolphin_launcher_libretro.so" %r
-
-[retroarch_wii]
-location=/usr/bin/retroarch
-command=%l -f --libretro="/usr/lib/libretro/dolphin_launcher_libretro.so" %r
+#
+# [retroarch_ds]
+# location=/usr/bin/retroarch
+# command=%l -f --libretro="/usr/lib/libretro/desmume_libretro.so" %r
+#
+# [retroarch_nes]
+# location=/usr/bin/retroarch
+# command=%l -f --libretro="/usr/lib/libretro/fceumm_libretro.so" %r
+#
+# [retroarch_gba]
+# location=/usr/bin/retroarch
+# command=%l -f --libretro="/usr/lib/libretro/vba_next_libretro.so" %r
+#
+# [retroarch_genesis]
+# location=/usr/bin/retroarch
+# command=%l -f --libretro="/usr/lib/libretro/genesis_plus_gx_libretro.so" %r
+#
+# [retroarch_n64]
+# location=/usr/bin/retroarch
+# command=%l -f --libretro="/usr/lib/libretro/mupen64plus_libretro.so" %r
+#
+# [retroarch_ps1]
+# location=/usr/bin/retroarch
+# command=%l -f --libretro="/usr/lib/libretro/pcsx1_libretro.so" %r
+#
+# [retroarch_gc]
+# location=/usr/bin/retroarch
+# command=%l -f --libretro="/usr/lib/libretro/dolphin_launcher_libretro.so" %r
+#
+# [retroarch_wii]
+# location=/usr/bin/retroarch
+# command=%l -f --libretro="/usr/lib/libretro/dolphin_launcher_libretro.so" %r
