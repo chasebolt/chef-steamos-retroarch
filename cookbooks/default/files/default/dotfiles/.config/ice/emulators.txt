@@ -1,6 +1,6 @@
 [retroarch_snes]
 location=/usr/bin/retroarch
-command=%l -fullscreen -libretro="/usr/lib/libretro/snes9x2010_libretro.so" %r
+command=%l -f --libretro="/usr/lib/libretro/snes9x2010_libretro.so" %r
 
 [retroarch_ds]
 location=/usr/bin/retroarch
