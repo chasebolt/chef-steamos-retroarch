@@ -13,7 +13,6 @@ end
   Saturn
   Dreamcast
   PS1
-  PS2
   Gamecube
   Wii
   Arcade
