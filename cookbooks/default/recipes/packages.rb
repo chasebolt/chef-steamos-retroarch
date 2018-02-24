@@ -9,4 +9,6 @@ package %w(
   libretro-mupen64plus
   libretro-pcsx1
   libretro-dolphin-launcher
+  libretro-mame2016
+  libretro-yabause
 )

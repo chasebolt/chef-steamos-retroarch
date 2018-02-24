@@ -16,6 +16,7 @@ end
   PS2
   Gamecube
   Wii
+  Arcade
 ).each do |d|
   directory "/home/steam/roms/#{d}" do
     owner 'steam'

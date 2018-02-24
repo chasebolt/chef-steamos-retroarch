@@ -33,3 +33,11 @@ command=%l -f --libretro="/usr/lib/libretro/dolphin_launcher_libretro.so" %r
 [retroarch_wii]
 location=/usr/bin/retroarch
 command=%l -f --libretro="/usr/lib/libretro/dolphin_launcher_libretro.so" %r
+
+[retroarch_arcade]
+location=/usr/bin/retroarch
+command=%l -f --libretro="/usr/lib/libretro/mame2016_libretro.so" %r
+
+[retroarch_saturn]
+location=/usr/bin/retroarch
+command=%l -f --libretro="/usr/lib/libretro/yabause_libretro.so" %r

@@ -33,3 +33,11 @@ emulator=retroarch_gc
 [Wii]
 nickname=Wii
 emulator=retroarch_wii
+
+[Arcade]
+nickname=Arcade
+emulator=retroarch_arcade
+
+[Saturn]
+nickname=Saturn
+emulator=retroarch_saturn
