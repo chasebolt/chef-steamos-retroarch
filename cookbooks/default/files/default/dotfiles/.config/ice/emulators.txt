@@ -1,14 +1,14 @@
-[snes]
+[retroarch_nes]
+location=/usr/bin/retroarch
+command=%l -f --libretro="/usr/lib/libretro/fceumm_libretro.so" %r
+
+[retroarch_snes]
 location=/usr/bin/retroarch
 command=%l -f --libretro="/usr/lib/libretro/snes9x2010_libretro.so" %r
-#
+
 # [retroarch_ds]
 # location=/usr/bin/retroarch
 # command=%l -f --libretro="/usr/lib/libretro/desmume_libretro.so" %r
-#
-# [retroarch_nes]
-# location=/usr/bin/retroarch
-# command=%l -f --libretro="/usr/lib/libretro/fceumm_libretro.so" %r
 #
 # [retroarch_gba]
 # location=/usr/bin/retroarch

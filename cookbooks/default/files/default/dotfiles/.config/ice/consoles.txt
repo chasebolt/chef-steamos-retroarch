@@ -1,11 +1,11 @@
-# [NES]
-# nickname=nes
-# emulator=retroarch_nes
+[NES]
+nickname=NES
+emulator=retroarch_nes
 
 [SNES]
-nickname=snes
-emulator=snes
-#
+nickname=SNES
+emulator=retroarch_snes
+
 # [N64]
 # nickname=n64
 # emulator=retroarch_n64
