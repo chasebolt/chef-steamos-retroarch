@@ -3,6 +3,11 @@ directory '/home/steam/roms' do
   group 'steam'
 end
 
+directory '/home/steam/saves' do
+  owner 'steam'
+  group 'steam'
+end
+
 %w(
   NES
   SNES
@@ -18,6 +23,18 @@ end
   Arcade
 ).each do |d|
   directory "/home/steam/roms/#{d}" do
+    owner 'steam'
+    group 'steam'
+  end
+  directory "/home/steam/saves/#{d}" do
+    owner 'steam'
+    group 'steam'
+  end
+  directory "/home/steam/saves/#{d}/files" do
+    owner 'steam'
+    group 'steam'
+  end
+  directory "/home/steam/saves/#{d}/states" do
     owner 'steam'
     group 'steam'
   end
