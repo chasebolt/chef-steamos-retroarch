@@ -9,8 +9,11 @@
   end
 end
 
-template '/home/steam/.config/retroarch/retroarch.cfg' do
-  source 'retroarch/retroarch.cfg.erb'
+remote_directory '/home/steam/.config/retroarch' do
+  source 'dotfiles/.config/retroarch'
   owner 'steam'
   group 'steam'
+  files_owner 'steam'
+  files_group 'steam'
+  files_mode 00750
 end
